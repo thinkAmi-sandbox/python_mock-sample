@@ -1,4 +1,2 @@
-colorama==0.3.7
 py==1.4.32
-pytest==3.0.5
-wheel==0.24.0
+pytest==3.0.6
