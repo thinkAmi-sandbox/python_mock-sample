@@ -7,4 +7,3 @@ class Target(object):
         disabled_module.call_function(disabled_submodule.CONST)
 
         return value ** 2
-        

@@ -8,7 +8,7 @@ sys.modules['disabled_package'] = Mock()
 sys.modules['disabled_package.disabled_module'] = Mock()
 
 # using 'disabled_package''disabled_package.disabled_module' in 'target' module
-from target import Target
+from mocking_module import Target
 
 class Test_Target(object):
     def test_square(self):

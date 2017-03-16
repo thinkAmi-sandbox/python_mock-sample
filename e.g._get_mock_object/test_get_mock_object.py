@@ -1,7 +1,7 @@
 # mockを作るための標準ライブラリ
 from unittest.mock import MagicMock
 # テスト対象クラス
-from target import Target
+from get_mock_object import Target
 # モックで差し替えるクラスが含まれるモジュール
 import cook
 
@@ -19,7 +19,7 @@ def test_bake():
     mock_cook = MagicMock()
     # bake()メソッドは、上記で作ったモック'mock_cuisine'を返すように指定
     mock_cook.bake.return_value = mock_cuisine
-    
+
     # Cookクラスはモックを返すモックに差し替える
     cook.Cook = mock_cook
 
