@@ -20,9 +20,9 @@ tested only `e.g_mocking_module` sample
 　
 # Samples
 
-- e.g_mocking_module/
+- `e.g._mocking_module/`
   - replace disabled package to mock
-- e.g._get_mock_object/
+- `e.g._get_mock_object/`
   - get mock object from another mock object
 
 　
