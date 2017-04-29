@@ -5,8 +5,8 @@
 ## Mac
 
 - Mac OS X 10.11.6
-- Python 3.6.0
-- pytest 3.0.6
+- Python 3.6.1
+- pytest 3.0.7
 
 　
 ## Windows
@@ -28,6 +28,8 @@ tested only `e.g_mocking_module` sample
   - sample: unittest.mock.object(autospect=True)
 - `e.g._called_count/`
   - assert called count & called args using MagicMock
+- `e.g._mocking_decorator`
+  - patch decorator using unittest.mock.patch
 
 　
 # Related Blog (Written in Japanese)
@@ -36,3 +38,4 @@ tested only `e.g_mocking_module` sample
 - [Pythonで、MagicMockのreturn_valueを使って、モックから別のモックを返してみた - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/03/09/060000)
 - [Pytnonで、unittest.mock.patch.objectのautospecとside_effectを使って、テスト対象の属性(self.attr)を更新する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/03/17/062138)
 - [Pythonで、モックに差し替えたメソッドが呼ばれた回数や呼ばれた時の引数を検証する - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/03/18/063454)
+- [Pythonで、unittest.mock.patchを使ってデコレータを差し替える - メモ的な思考的な](http://thinkami.hatenablog.com/entry/2017/04/30/081331)
